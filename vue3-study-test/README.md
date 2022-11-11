@@ -126,3 +126,7 @@ Vuex 提供统一的数据中心, 用于状态和数据管理。在 Vuex 中，�
 
 这两个不同的原理，在 vue-router 中对应两个函数，分别是 createWebHashHistory 和 createWebHistory。
 
+
+# vue
+
+template 的优化，比如 template 的静态标记所带来的收益是怎么样的？
