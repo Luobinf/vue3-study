@@ -39,6 +39,12 @@ function increment() {
   // state.count++
   store.commit("add");
 }
+
+
+function asyncAdd(){
+    store.dispatch('asyncAdd')
+}
+
 </script>
 
 <style>

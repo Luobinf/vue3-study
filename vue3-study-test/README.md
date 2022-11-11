@@ -113,7 +113,16 @@ computed() 方法期望接收一个 getter 函数，返回值为一个计算属�
 
 
 
-# Vuex
+# vuex
 
-Vuex 提供统一的数据中心。在 Vuex 中，你可以使用 getters 配置，来实现 computed 的功能。
+Vuex 提供统一的数据中心, 用于状态和数据管理。在 Vuex 中，你可以使用 getters 配置，来实现 computed 的功能。
+
+核心概念： state 、actions/commit、mutations/dispatch
+
+# vue-router
+
+
+现在，通过 URL 区分路由的机制上，有两种实现方式，一种是 hash 模式，通过 URL 中 # 后面的内容做区分，我们称之为 hash-router；另外一个方式就是 history 模式，在这种方式下，路由看起来和正常的 URL 完全一致。
+
+这两个不同的原理，在 vue-router 中对应两个函数，分别是 createWebHashHistory 和 createWebHistory。
 
