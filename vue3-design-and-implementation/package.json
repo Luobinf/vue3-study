@@ -1,0 +1,16 @@
+{
+  "name": "vue3-design-and-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mpxjs/utils": "^2.8.11",
+    "@vue/reactivity": "^3.2.45",
+    "vue": "^3.2.45"
+  }
+}
